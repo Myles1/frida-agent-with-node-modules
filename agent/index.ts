@@ -1,4 +1,7 @@
 import { log } from "./logger.js";
+import * as rx from "rxjs";
+
+console.log(rx.Observable.name);
 
 const header = Memory.alloc(16);
 header
